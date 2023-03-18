@@ -30,7 +30,7 @@ class Post(models.Model):
     comment_count = models.IntegerField(default=0)
 
     def __str__(self):
-        return f"Post ID: {self.id} (creater: {self.creater})"
+        return f"Post ID: {self.id} (creater: {self.creater})" # type: ignore
 
     def img_url(self):
         return self.content_image.url
