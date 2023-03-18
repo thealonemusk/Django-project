@@ -77,7 +77,7 @@ def register(request):
 
         # Attempt to create new user
         try:
-            user = User.objects.create_user(username, email, password)
+            user = User.objects.create_user(username, email, password) # type: ignore
             user.first_name = fname
             user.last_name = lname
             if profile is not None:

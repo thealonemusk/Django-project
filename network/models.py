@@ -49,7 +49,7 @@ class Comment(models.Model):
 
     def serialize(self):
         return {
-            "id": self.id,
+            "id": self.id, # type: ignore
             "commenter": self.commenter.serialize(),
             "body": self.comment_content,
             "timestamp": self.comment_time.strftime("%b %d %Y, %I:%M %p")
