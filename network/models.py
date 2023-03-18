@@ -13,7 +13,7 @@ class User(AbstractUser):
 
     def serialize(self):
         return {
-            'id': self.id,
+            'id': self.id,# type: ignore
             "username": self.username,
             "profile_pic": self.profile_pic.url,
             "first_name": self.first_name,
