@@ -15,8 +15,7 @@ python -m venv env
 source env/bin/activate (for Mac/Linux) OR env\Scripts\activate (for Windows)
 <h2>
 Install the required packages:</h2>
-Copy code
-pip install -r requirements.txt
+Just try to run the code and install the packages when shows error even i dont remember what the requirements were .
 
 <h2>
 Run the migrations:<h2>
