@@ -5,7 +5,7 @@ This is a Django-based social media application that allows users to create and 
 Installation</h2>
 Clone the repository from Github:
 Copy code
-git clone https://github.com/thealonemusk/Django-project.git
+git clone https://github.com/thealonemusk/socio.git
 
 <h2>
 Create a virtual environment and activate it:</h2>
